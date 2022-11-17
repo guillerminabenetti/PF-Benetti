@@ -1,0 +1,34 @@
+%botones {
+    padding: 4px;
+    border-radius: 8px;
+    border-style: none;
+        
+        &:hover {
+            transform: scale(1.2);
+            transition: all 1s;
+        }
+            
+        a{
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+            color: white;
+            }
+        
+    }
+}
+
+.boton-index-clases {
+    @extend %botones;
+    background-color: rgba(146, 82, 66, 0.767);
+    padding: 8px;
+    
+}
+
+.boton-notas{
+    margin-top: 5%;
+    background-color: gray;
+
+    @extend %botones;
+}

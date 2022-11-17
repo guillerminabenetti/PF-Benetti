@@ -1,0 +1,58 @@
+/*CLASES*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Primera seccion*/
+.titulo-clases {
+display: flex;
+justify-content: center;
+padding-top: 3%;
+font-family: nth($list: $fonts, $n: 2);
+background-color: rgba(133, 128, 136, 0.562);
+      div {
+        padding-bottom: 2%;
+        h1 {
+           color: white;
+           font-size: 30px;
+        }
+      }
+}
+/*Segunda seccion*/
+.seccion-clases {
+    display: flex;
+    background-color:rgba(129, 160, 128, 0.24);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    // margin-top: 2%;
+    
+    div {
+        
+        div{
+            
+            .descripcion {
+                padding-top: 2%;
+                padding-bottom: 2%;
+            }
+            
+            .horarios {
+                text-align: end;
+                padding-right: 10%;
+                padding-top: 4%;
+            }
+           div {
+            h2 {
+                font-size: 25px;
+                color: nth($list: $colores, $n:4);
+
+                &:hover {
+                    color: rgb(184, 181, 181);
+                }
+            }
+           }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+/*SOBRE MI*/
+@import '../base/listas';
+
+/*Primera seccion*/
+.sobremi-seccion1 {
+    padding: 8% 5% 5%;
+    margin-top: 5%;
+    font-size: 110%;
+    font-family: nth($list: $fonts, $n: 1);
+    background-color: nth($list: $colores, $n: 2);
+    color: rgb(109, 108, 108);
+
+    div {
+        div {
+            h1 {
+                margin-bottom: 20px;
+                font-size: 30px;
+                font-family: nth($list: $fonts, $n: 1);
+                text-align: left;
+            }
+
+            p {
+                text-align: justify;
+                color: nth($list: $colores, $n: 7);
+            }
+        }
+        .imagen-sobremi {
+            padding-top: 30px;
+        }
+    }
+}
+/*Fin primera seccion*/
+
+
+/*Segunda seccion*/
+.div-titulo-maestros {
+    margin-top: 10%;
+    color: nth($list: $colores, $n:5);
+    
+    h2 {
+        font-size: 25px;
+    }
+}
+
+.sobremi-seccion2 {
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-family: nth($list: $fonts, $n:1);
+
+    div {
+        div {
+            margin-top: 10%;
+            color: nth($list: $colores, $n:5);
+                h3 {
+                    font-size: 20px;
+                    padding-top: 25px;
+                    font-family: nth($list: $fonts, $n:2);
+
+                }
+                p {
+                    padding-top: 2%;
+                    margin-top: 7%;
+                }
+        }
+    }
+}
+
+/*Fin segunda seccion*/
