@@ -212,7 +212,7 @@ footer div a:hover, footer div p:hover {
 .seccion-clases {
   display: flex;
   background-color: rgba(129, 160, 128, 0.24);
-  font-family: "Montserrat", sans-serif;
+  font-family: font-family "Montserrat";
   padding-top: 5%;
   padding-bottom: 5%;
 }

@@ -1,4 +1,5 @@
 /*Header*/
+@import '../base/listas';
 
 header {
     background-image: url(../imagenes/header.jpg);
@@ -35,20 +36,17 @@ header {
 
 /*Footer*/
 footer {
-    background-color: rgb(187, 161, 161);
+    background-color: nth($list: $colores, $n:8);
     padding-bottom: 100px;
-    
 
     div {
           a, p {
-                color: rgb(109, 108, 108);
+                color: nth($list: $colores, $n: 4);
                 text-decoration: none;
                 &:hover {
                     color: white;
-    
                 }
         }
-    
     }
 }
 /*Fin footer*/
