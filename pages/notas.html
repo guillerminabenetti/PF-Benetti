@@ -27,6 +27,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!--ANIMACIONES-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--CSS-->
      <link rel="stylesheet" href="../css/style.css">
 
@@ -70,14 +73,14 @@
 
     <main>
 
-      <div class="notas-h1">
-        <h1>Acerca del Yoga</h1>
+      <div class="notas-h1"> 
+        <h1 >Acerca del Yoga</h1>
       </div>
       <section class="notas">
 
         <div class="row fila1">
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2500">
               <div class="card-body">
                 <img src="../imagenes/respiracion.jpg" alt="respiracion en el yoga">
                 <h2 class="card-title">La Respiracion en el yoga</h2>
@@ -88,11 +91,11 @@
           </div>
   
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2500">
               <div class="card-body">
                 <img src="../imagenes/nota3.jpg "alt="¿Que es el yoga?">
                 <h2 class="card-title">¿Qué es el yoga?</h2>
-                <p class="card-text">El yoga es un método, está compuesto por un grupo de técnicas que se aplican de una manera particular para alcanzar un objetivo</p>
+                <p class="card-text">El yoga es un método, está compuesto por un grupo de técnicas que se aplican de una manera particular para alcanzar un objetivo...</p>
                 <button class="boton-notas"><a href="">Leer mas</a></button>
               </div>
             </div>
@@ -101,27 +104,33 @@
 
         <div class="row"> 
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2500">
               <div class="card-body">
                 <img src="../imagenes/mudra.jpg" alt="Kali Mudra">
                 <h2 class="card-title">Kali Mudra</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam earum consequatur tempora. Beatae iste perferendis harum incidunt vel itaque eos quos pariatur sed veniam aut, nihil amet asperiores corrupti eaque.</p>
+                <p class="card-text">
+                  Mudra de la diosa negra. Destruye todo lo que nos separa de la divinidad, apegos, miedos, lo que nos impide avanzar en nuestro camino, este Mudra invoca la destruccion que da paso al renacimiento...</p>
                 <button class="boton-notas"><a href="">Leer mas</a></button>
               </div>
             </div>
           </div>
   
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2500">
               <div class="card-body">
                 <img src="../imagenes/nota4.jpg" alt="Hidraya Mudra">
                 <h2 class="card-title">Hidraya Mudra</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores exercitationem, asperiores quos ex reiciendis iure recusandae ducimus! Fugit blanditiis saepe.</p>
+                <p class="card-text">Mudra del corazón espiritual. Este gesto trabaja con el corazón, para abrirlo para darte cuenta del amor dentro de vos mismo. Transforma el dolor físico y emocional, cultiva la compasión...
+                  </p>
                 <button class="boton-notas"><a href="">Leer mas</a></button>
               </div>
             </div>
+          </div>
+
+            </div>
             
           </div>
+
         </div>
 
       </section>
@@ -157,5 +166,11 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+     <!--AOS-->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 </body>
 </html>
